@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="cal_container">
+            <h1>Basic Calculator</h1>
+            <span></span>
+            <span></span>
+            <span></span>
+            <!-- result container -->
+            <div class="result">
+                <div class="res expression"></div>
+                <div class="res output">
+                    <div class="history">
+                        <img src="ic_recent_history.png" alt="" />
+                    </div>
+                    <div class="eval_result"></div>
+                </div>
+            </div>
+            <!-- history container -->
+            <div class="history_container">
+                <div class="clear_history">
+                    <img src="icon-delete.scale-180.png" alt="" />
+                </div>
+            </div>
+            <!-- clear result container -->
+            <div class="clear">
+                <button>Clear</button>
+            </div>
+            <!-- keys container -->
+            <div class="keys_container">
+                <div class="box">
+                    <div class="nums"></div>
+                </div>
+                <div class="box">
+                    <div class="symbols"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
